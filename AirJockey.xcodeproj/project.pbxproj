@@ -1,0 +1,393 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		21C7C7D41A0F30F500CD2B3C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 21C7C7D21A0F30F500CD2B3C /* main.cpp */; };
+		21C7C7D51A0F30F500CD2B3C /* MusicGesture.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 21C7C7D31A0F30F500CD2B3C /* MusicGesture.cpp */; };
+		21C7C7DA1A0F31D500CD2B3C /* libLeap.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 21C7C7D91A0F31D500CD2B3C /* libLeap.dylib */; };
+		21C7C7DC1A0F31FC00CD2B3C /* libLeap.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 21C7C7D91A0F31D500CD2B3C /* libLeap.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		21DFAA561A0EB5830087A628 /* ResourcePath.mm in Sources */ = {isa = PBXBuildFile; fileRef = 21DFAA551A0EB5830087A628 /* ResourcePath.mm */; };
+		21DFAA5C1A0EB5830087A628 /* cute_image.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 21DFAA5B1A0EB5830087A628 /* cute_image.jpg */; };
+		21DFAA5E1A0EB5830087A628 /* nice_music.ogg in Resources */ = {isa = PBXBuildFile; fileRef = 21DFAA5D1A0EB5830087A628 /* nice_music.ogg */; };
+		21DFAA601A0EB5830087A628 /* sansation.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 21DFAA5F1A0EB5830087A628 /* sansation.ttf */; };
+		21DFAA621A0EB5830087A628 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 21DFAA611A0EB5830087A628 /* icon.png */; };
+		21DFAA7F1A0EB9130087A628 /* 1.ogg in Resources */ = {isa = PBXBuildFile; fileRef = 21DFAA781A0EB9130087A628 /* 1.ogg */; };
+		21DFAA801A0EB9130087A628 /* 2.ogg in Resources */ = {isa = PBXBuildFile; fileRef = 21DFAA791A0EB9130087A628 /* 2.ogg */; };
+		21DFAA811A0EB9130087A628 /* 3.ogg in Resources */ = {isa = PBXBuildFile; fileRef = 21DFAA7A1A0EB9130087A628 /* 3.ogg */; };
+		21DFAA821A0EB9130087A628 /* CLAP.wav in Resources */ = {isa = PBXBuildFile; fileRef = 21DFAA7B1A0EB9130087A628 /* CLAP.wav */; };
+		21DFAA831A0EB9130087A628 /* CRASH.wav in Resources */ = {isa = PBXBuildFile; fileRef = 21DFAA7C1A0EB9130087A628 /* CRASH.wav */; };
+		21DFAA841A0EB9130087A628 /* KICK.wav in Resources */ = {isa = PBXBuildFile; fileRef = 21DFAA7D1A0EB9130087A628 /* KICK.wav */; };
+		21DFAA851A0EB9130087A628 /* POKEMON.ogg in Resources */ = {isa = PBXBuildFile; fileRef = 21DFAA7E1A0EB9130087A628 /* POKEMON.ogg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		21C7C7DB1A0F31F200CD2B3C /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 6;
+			files = (
+				21C7C7DC1A0F31FC00CD2B3C /* libLeap.dylib in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		21C7C7D21A0F30F500CD2B3C /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = SOURCE_ROOT; };
+		21C7C7D31A0F30F500CD2B3C /* MusicGesture.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MusicGesture.cpp; sourceTree = SOURCE_ROOT; };
+		21C7C7D61A0F315500CD2B3C /* MusicGesture.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MusicGesture.h; sourceTree = SOURCE_ROOT; };
+		21C7C7D71A0F316900CD2B3C /* Leap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Leap.h; path = LeapSDK/include/Leap.h; sourceTree = SOURCE_ROOT; };
+		21C7C7D81A0F316900CD2B3C /* LeapMath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LeapMath.h; path = LeapSDK/include/LeapMath.h; sourceTree = SOURCE_ROOT; };
+		21C7C7D91A0F31D500CD2B3C /* libLeap.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libLeap.dylib; path = "LeapSDK/lib/libc++/libLeap.dylib"; sourceTree = SOURCE_ROOT; };
+		21DFAA501A0EB5830087A628 /* AirJockey.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AirJockey.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		21DFAA541A0EB5830087A628 /* AirJockey-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AirJockey-Info.plist"; sourceTree = "<group>"; };
+		21DFAA551A0EB5830087A628 /* ResourcePath.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ResourcePath.mm; sourceTree = "<group>"; };
+		21DFAA571A0EB5830087A628 /* ResourcePath.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ResourcePath.hpp; sourceTree = "<group>"; };
+		21DFAA5B1A0EB5830087A628 /* cute_image.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cute_image.jpg; sourceTree = "<group>"; };
+		21DFAA5D1A0EB5830087A628 /* nice_music.ogg */ = {isa = PBXFileReference; lastKnownFileType = file; path = nice_music.ogg; sourceTree = "<group>"; };
+		21DFAA5F1A0EB5830087A628 /* sansation.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = sansation.ttf; sourceTree = "<group>"; };
+		21DFAA611A0EB5830087A628 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		21DFAA781A0EB9130087A628 /* 1.ogg */ = {isa = PBXFileReference; lastKnownFileType = file; name = 1.ogg; path = AirJockey/1.ogg; sourceTree = "<group>"; };
+		21DFAA791A0EB9130087A628 /* 2.ogg */ = {isa = PBXFileReference; lastKnownFileType = file; name = 2.ogg; path = AirJockey/2.ogg; sourceTree = "<group>"; };
+		21DFAA7A1A0EB9130087A628 /* 3.ogg */ = {isa = PBXFileReference; lastKnownFileType = file; name = 3.ogg; path = AirJockey/3.ogg; sourceTree = "<group>"; };
+		21DFAA7B1A0EB9130087A628 /* CLAP.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = CLAP.wav; sourceTree = "<group>"; };
+		21DFAA7C1A0EB9130087A628 /* CRASH.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = CRASH.wav; sourceTree = "<group>"; };
+		21DFAA7D1A0EB9130087A628 /* KICK.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = KICK.wav; sourceTree = "<group>"; };
+		21DFAA7E1A0EB9130087A628 /* POKEMON.ogg */ = {isa = PBXFileReference; lastKnownFileType = file; path = POKEMON.ogg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		21DFAA4C1A0EB5830087A628 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21C7C7DA1A0F31D500CD2B3C /* libLeap.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		21DFAA461A0EB5830087A628 = {
+			isa = PBXGroup;
+			children = (
+				21DFAA521A0EB5830087A628 /* AirJockey */,
+				21DFAA511A0EB5830087A628 /* Products */,
+				21DFAA781A0EB9130087A628 /* 1.ogg */,
+				21DFAA791A0EB9130087A628 /* 2.ogg */,
+				21DFAA7A1A0EB9130087A628 /* 3.ogg */,
+			);
+			sourceTree = "<group>";
+		};
+		21DFAA511A0EB5830087A628 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				21DFAA501A0EB5830087A628 /* AirJockey.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		21DFAA521A0EB5830087A628 /* AirJockey */ = {
+			isa = PBXGroup;
+			children = (
+				21C7C7D91A0F31D500CD2B3C /* libLeap.dylib */,
+				21C7C7D71A0F316900CD2B3C /* Leap.h */,
+				21C7C7D81A0F316900CD2B3C /* LeapMath.h */,
+				21C7C7D61A0F315500CD2B3C /* MusicGesture.h */,
+				21C7C7D21A0F30F500CD2B3C /* main.cpp */,
+				21C7C7D31A0F30F500CD2B3C /* MusicGesture.cpp */,
+				21DFAA551A0EB5830087A628 /* ResourcePath.mm */,
+				21DFAA571A0EB5830087A628 /* ResourcePath.hpp */,
+				21DFAA5A1A0EB5830087A628 /* Resources */,
+			);
+			path = AirJockey;
+			sourceTree = "<group>";
+		};
+		21DFAA531A0EB5830087A628 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				21DFAA541A0EB5830087A628 /* AirJockey-Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		21DFAA5A1A0EB5830087A628 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				21DFAA7B1A0EB9130087A628 /* CLAP.wav */,
+				21DFAA7C1A0EB9130087A628 /* CRASH.wav */,
+				21DFAA7D1A0EB9130087A628 /* KICK.wav */,
+				21DFAA7E1A0EB9130087A628 /* POKEMON.ogg */,
+				21DFAA5B1A0EB5830087A628 /* cute_image.jpg */,
+				21DFAA5D1A0EB5830087A628 /* nice_music.ogg */,
+				21DFAA5F1A0EB5830087A628 /* sansation.ttf */,
+				21DFAA531A0EB5830087A628 /* Supporting Files */,
+				21DFAA611A0EB5830087A628 /* icon.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		21DFAA4F1A0EB5830087A628 /* AirJockey */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21DFAA651A0EB5830087A628 /* Build configuration list for PBXNativeTarget "AirJockey" */;
+			buildPhases = (
+				21DFAA4B1A0EB5830087A628 /* Sources */,
+				21DFAA4C1A0EB5830087A628 /* Frameworks */,
+				21DFAA4D1A0EB5830087A628 /* Resources */,
+				21DFAA4E1A0EB5830087A628 /* Run Script */,
+				21C7C7DB1A0F31F200CD2B3C /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AirJockey;
+			productName = AirJockey;
+			productReference = 21DFAA501A0EB5830087A628 /* AirJockey.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		21DFAA471A0EB5830087A628 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Lawrence Yuan";
+				TargetAttributes = {
+					21DFAA4F1A0EB5830087A628 = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 21DFAA4A1A0EB5830087A628 /* Build configuration list for PBXProject "AirJockey" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 21DFAA461A0EB5830087A628;
+			productRefGroup = 21DFAA511A0EB5830087A628 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				21DFAA4F1A0EB5830087A628 /* AirJockey */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		21DFAA4D1A0EB5830087A628 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21DFAA801A0EB9130087A628 /* 2.ogg in Resources */,
+				21DFAA7F1A0EB9130087A628 /* 1.ogg in Resources */,
+				21DFAA621A0EB5830087A628 /* icon.png in Resources */,
+				21DFAA601A0EB5830087A628 /* sansation.ttf in Resources */,
+				21DFAA851A0EB9130087A628 /* POKEMON.ogg in Resources */,
+				21DFAA821A0EB9130087A628 /* CLAP.wav in Resources */,
+				21DFAA831A0EB9130087A628 /* CRASH.wav in Resources */,
+				21DFAA841A0EB9130087A628 /* KICK.wav in Resources */,
+				21DFAA5E1A0EB5830087A628 /* nice_music.ogg in Resources */,
+				21DFAA5C1A0EB5830087A628 /* cute_image.jpg in Resources */,
+				21DFAA811A0EB9130087A628 /* 3.ogg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		21DFAA4E1A0EB5830087A628 /* Run Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Run Script";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# This shell script simply copies required sfml dylibs/frameworks into the application bundle frameworks folder.\n# If you're using static libraries (which is not recommended) you should remove this script from your project.\n\n# Are we building a project that uses framework or dylibs ?\ncase \"$SFML_BINARY_TYPE\" in\n    DYLIBS)\n        frameworks=\"false\"\n        ;;\n    *)\n        frameworks=\"true\"\n        ;;\nesac\n\n# Echoes to stderr\nerror () # $* message to display\n{\n    echo $* 1>&2\n    exit 2\n}\n\nassert () # $1 is a boolean, $2...N is an error message\n{\n    if [ $# -lt 2 ]\n    then\n        error \"Internal error in assert : not enough args\"\n    fi\n\n    if [ $1 -ne 0 ]\n    then\n        shift\n        error \"$*\"\n    fi\n}\n\nforce_remove () # $1 is a path\n{\n    test $# -eq 1\n    assert $? \"force_remove() requires one parameter\"\n    rm -fr \"$1\"\n    assert $? \"couldn't remove $1\"\n}\n\ncopy () # $1 is a source, $2 is a destination\n{\n    test $# -eq 2\n    assert $? \"copy() requires two parameters\"\n    ditto \"$1\" \"$2\"\n    assert $? \"couldn't copy $1 to $2\"\n}\n\nrequire () # $1 is a SFML module like 'system' or 'audio'\n{\n    dest=\"$BUILT_PRODUCTS_DIR/$PRODUCT_NAME.app/Contents/Frameworks\"\n\n    if [ -z \"$1\" ]\n    then\n        error \"require() requires one parameter!\"\n    else\n        # clean potentially old stuff\n        force_remove \"$dest/libsfml-$1.2.dylib\"\n        force_remove \"$dest/libsfml-$1-d.2.dylib\"\n        force_remove \"$dest/sfml-$1.framework\"\n\n        # copy SFML libraries\n        if [ \"$frameworks\" = \"true\" ]\n        then\n            copy \"/Library/Frameworks/sfml-$1.framework\" \"$dest/sfml-$1.framework\"\n        elif [ \"$SFML_LINK_DYLIBS_SUFFIX\" = \"-d\" ]\n        then\n            copy \"/usr/local/lib/libsfml-$1-d.2.dylib\" \"$dest/libsfml-$1-d.2.dylib\"\n        else\n            copy \"/usr/local/lib/libsfml-$1.2.dylib\" \"$dest/libsfml-$1.2.dylib\"\n        fi\n\n        if [ \"$1\" = \"audio\" ]\n        then\n            # copy sndfile framework too\n            copy \"/Library/Frameworks/sndfile.framework\" \"$dest/sndfile.framework\"\n        fi\n\n        if [ \"$1\" = \"graphics\" ]\n        then\n            # copy freetype framework too\n            copy \"/Library/Frameworks/freetype.framework\" \"$dest/freetype.framework\"\n        fi\n    fi\n}\n\nif [ -n \"$SFML_SYSTEM\" ]\nthen\n    require \"system\"\nfi\n\nif [ -n \"$SFML_AUDIO\" ]\nthen\n    require \"audio\"\nfi\n\nif [ -n \"$SFML_NETWORK\" ]\nthen\n    require \"network\"\nfi\n\nif [ -n \"$SFML_WINDOW\" ]\nthen\n    require \"window\"\nfi\n\nif [ -n \"$SFML_GRAPHICS\" ]\nthen\n    require \"graphics\"\nfi\n\n                ";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		21DFAA4B1A0EB5830087A628 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21C7C7D41A0F30F500CD2B3C /* main.cpp in Sources */,
+				21DFAA561A0EB5830087A628 /* ResourcePath.mm in Sources */,
+				21C7C7D51A0F30F500CD2B3C /* MusicGesture.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		21DFAA631A0EB5830087A628 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					/Library/Frameworks/,
+					"$(inherited)",
+				);
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include/,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					/usr/local/lib/,
+					"$(inherited)",
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"$(SFML_SYSTEM)",
+					"$(SFML_WINDOW)",
+					"$(SFML_GRAPHICS)",
+					"$(SFML_AUDIO)",
+					"$(SFML_NETWORK)",
+				);
+				SFML_AUDIO = "$(SFML_LINK_PREFIX) sfml-audio$(SFML_LINK_SUFFIX)";
+				SFML_BINARY_TYPE = FRAMEWORKS;
+				SFML_GRAPHICS = "$(SFML_LINK_PREFIX) sfml-graphics$(SFML_LINK_SUFFIX)";
+				SFML_LINK_DYLIBS_PREFIX = "-l";
+				SFML_LINK_DYLIBS_SUFFIX = "";
+				SFML_LINK_FRAMEWORKS_PREFIX = "-framework";
+				SFML_LINK_FRAMEWORKS_SUFFIX = "";
+				SFML_LINK_PREFIX = "$(SFML_LINK_$(SFML_BINARY_TYPE)_PREFIX)";
+				SFML_LINK_SUFFIX = "$(SFML_LINK_$(SFML_BINARY_TYPE)_SUFFIX)";
+				SFML_NETWORK = "$(SFML_LINK_PREFIX) sfml-network$(SFML_LINK_SUFFIX)";
+				SFML_SYSTEM = "$(SFML_LINK_PREFIX) sfml-system$(SFML_LINK_SUFFIX)";
+				SFML_WINDOW = "$(SFML_LINK_PREFIX) sfml-window$(SFML_LINK_SUFFIX)";
+				SUPPORTED_PLATFORMS = macosx;
+			};
+			name = Debug;
+		};
+		21DFAA641A0EB5830087A628 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					/Library/Frameworks/,
+					"$(inherited)",
+				);
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include/,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					/usr/local/lib/,
+					"$(inherited)",
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"$(SFML_SYSTEM)",
+					"$(SFML_WINDOW)",
+					"$(SFML_GRAPHICS)",
+					"$(SFML_AUDIO)",
+					"$(SFML_NETWORK)",
+				);
+				SFML_AUDIO = "$(SFML_LINK_PREFIX) sfml-audio$(SFML_LINK_SUFFIX)";
+				SFML_BINARY_TYPE = FRAMEWORKS;
+				SFML_GRAPHICS = "$(SFML_LINK_PREFIX) sfml-graphics$(SFML_LINK_SUFFIX)";
+				SFML_LINK_DYLIBS_PREFIX = "-l";
+				SFML_LINK_DYLIBS_SUFFIX = "";
+				SFML_LINK_FRAMEWORKS_PREFIX = "-framework";
+				SFML_LINK_FRAMEWORKS_SUFFIX = "";
+				SFML_LINK_PREFIX = "$(SFML_LINK_$(SFML_BINARY_TYPE)_PREFIX)";
+				SFML_LINK_SUFFIX = "$(SFML_LINK_$(SFML_BINARY_TYPE)_SUFFIX)";
+				SFML_NETWORK = "$(SFML_LINK_PREFIX) sfml-network$(SFML_LINK_SUFFIX)";
+				SFML_SYSTEM = "$(SFML_LINK_PREFIX) sfml-system$(SFML_LINK_SUFFIX)";
+				SFML_WINDOW = "$(SFML_LINK_PREFIX) sfml-window$(SFML_LINK_SUFFIX)";
+				SUPPORTED_PLATFORMS = macosx;
+			};
+			name = Release;
+		};
+		21DFAA661A0EB5830087A628 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "AirJockey/AirJockey-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/LeapSDK/lib/libc++",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		21DFAA671A0EB5830087A628 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "AirJockey/AirJockey-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/LeapSDK/lib/libc++",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		21DFAA4A1A0EB5830087A628 /* Build configuration list for PBXProject "AirJockey" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21DFAA631A0EB5830087A628 /* Debug */,
+				21DFAA641A0EB5830087A628 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		21DFAA651A0EB5830087A628 /* Build configuration list for PBXNativeTarget "AirJockey" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21DFAA661A0EB5830087A628 /* Debug */,
+				21DFAA671A0EB5830087A628 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 21DFAA471A0EB5830087A628 /* Project object */;
+}
