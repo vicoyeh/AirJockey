@@ -11,4 +11,5 @@ Being able to "feel" your music means a lot for a musician. To achieve this goal
 Our mission is to change the way that people interact with music, giving users more control. With AirJockey we hope to inspire further work on this area.
 
 #Links
+Youtube: https://www.youtube.com/watch?v=CbEoGR3QFzA&feature=youtu.be
 ChallengePost: http://challengepost.com/software/airjockey
