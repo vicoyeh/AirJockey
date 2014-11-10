@@ -13,4 +13,4 @@ Our mission is to change the way that people interact with music, giving users m
 #Links
 Youtube: https://www.youtube.com/watch?v=CbEoGR3QFzA&feature=youtu.be
 
-ChallengePost: http://challengepost.com/software/airjockey
+ChallengePost: http://challengepost.com/software/airjockey-2vd9f
